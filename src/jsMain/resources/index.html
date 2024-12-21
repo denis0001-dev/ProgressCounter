@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--suppress HtmlFormInputWithoutLabel -->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Progress Counter</title>
+        <link rel="stylesheet" href="main.css" />
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="main">
+                <div class="inp">
+                    <span>The whole count: </span>
+                    <input id="wholeCount" type="number" />
+                </div>
+                <div class="inp">
+                    <span>Completed count: </span>
+                    <input id="completedCount" type="number" />
+                </div>
+                <div id="progress">
+                    <div id="progress_active">
+                        <span id="progress_count">0%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--suppress HtmlUnknownTarget -->
+        <script src="ProgressCounter.js"></script>
+    </body>
+</html>
